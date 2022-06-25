@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
 router.get('/vinni', function(req, res, next) {
   res.render('hero', {
       title: "Винни Пух",
-      picture: "images/vinni.jpg",
+      picture: "./images/vinni.jpg",
       desc: "Плюшевый медвежонок, игрушка"
   });
 });
@@ -19,7 +19,7 @@ router.get('/vinni', function(req, res, next) {
 router.get('/pig', function(req, res, next) {
   res.render('hero', {
       title: "Пятачок",
-      picture: "images/pig.jpg",
+      picture: "./images/pig.jpg",
       desc: "Крошечный поросенок, которого зовут Пятачок, и который живет в большом-пребольшом доме"
   });
 });
@@ -28,7 +28,7 @@ router.get('/pig', function(req, res, next) {
 router.get('/rabbit', function(req, res, next) {
   res.render('hero', {
       title: "Кролик",
-      picture: "images/rabbit.jpg",
+      picture: "./images/rabbit.jpg",
       desc: "Кролик, всегда безумно рад видеть Винни-Пуха"
   });
 });
@@ -37,7 +37,7 @@ router.get('/rabbit', function(req, res, next) {
 router.get('/iaia', function(req, res, next) {
   res.render('hero', {
       title: "Иа Иа",
-      picture: "images/iaia.jpg",
+      picture: "./images/iaia.jpg",
       desc: "Грустный ослик, который однажды потерял хвост"
   });
 });
@@ -46,7 +46,7 @@ router.get('/iaia', function(req, res, next) {
 router.get('/sova', function(req, res, next) {
   res.render('hero', {
       title: "Сова",
-      picture: "images/sova.jpg",
+      picture: "./images/sova.jpg",
       desc: "Если кто-нибудь что-нибудь о чем-нибудь знает, то это, конечно, Сова"
   });
 });
